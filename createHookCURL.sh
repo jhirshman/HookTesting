@@ -1,5 +1,6 @@
 #!/bin/bash
-curl -X POST 'https://api.github.com/repos/jhirshman/HookTesting/hooks' -d '{
+
+curl -v 'https://api.github.com/repos/jhirshman/HookTesting/hooks' -d '{
 	"name": "web",
 	"active": true,
 	"config": {
